@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Book:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66b65ca4-73db-4b7c-9d0f-bd61c6ee7337" name="更改" comment="更改">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Book_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bcbce759-51bd-4f04-af0b-8eb6218de574.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bcbce759-51bd-4f04-af0b-8eb6218de574/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bcbce759-51bd-4f04-af0b-8eb6218de574/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bcbce759-51bd-4f04-af0b-8eb6218de574/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bcbce759-51bd-4f04-af0b-8eb6218de574/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/dao/OrderItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/dao/impl/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/dao/impl/OrderItemDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/filter/ManagerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/filter/TransactionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/pojo/CarItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/pojo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/pojo/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/BookDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/BookServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/JdbcUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/OrderDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/OrderItemDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/test/UserServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/utils/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/web/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/web/BookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/web/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/web/ClientBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/web/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/web/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/www/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.3-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jsp-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-jupiter-5.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-jupiter-api-5.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-jupiter-engine-5.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-jupiter-params-5.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-platform-commons-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-platform-engine-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/cart/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/cart/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/client/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/common/login_success_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/common/mamager_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/common/page_nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/error/error404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/error/error500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/book_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/book_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/order_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/order/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/test/dzcp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/test/fzyp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/login_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/regist_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/bootstrap-5.1.1-dist/js/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/code.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/logo1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/pwd-icons-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/三国演绎.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/云温泉.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/野果.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xml/books.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1zd8PN9CNrTXZJ5IIPYgS3lDMdK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/web/pages/test/index.jsp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA 2021.2.3\www\Book\web\WEB-INF\lib" />
+      <recent name="D:\IntelliJ IDEA 2021.2.3\www\Book\web\pages\error" />
+      <recent name="D:\IntelliJ IDEA 2021.2.3\www\Book\web\pages\test\fzcp" />
+      <recent name="D:\IntelliJ IDEA 2021.2.3\www\Book\web\pages\test\dzcp" />
+      <recent name="D:\IntelliJ IDEA 2021.2.3\www\Book\web\pages\test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA 2021.2.3\www\Book\web\static\img" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.www.test" />
+      <recent name="com.www.dao.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 8.5.47">
+    <configuration name="CartTest.clear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.www.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.www.test" />
+      <option name="MAIN_CLASS_NAME" value="com.www.test.CartTest" />
+      <option name="METHOD_NAME" value="clear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartTest.updateCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.www.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.www.test" />
+      <option name="MAIN_CLASS_NAME" value="com.www.test.CartTest" />
+      <option name="METHOD_NAME" value="updateCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDaoImplTest.saveOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.www.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.www.test" />
+      <option name="MAIN_CLASS_NAME" value="com.www.test.OrderDaoImplTest" />
+      <option name="METHOD_NAME" value="saveOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderItemDaoImplTest.saveOrderItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.www.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.www.test" />
+      <option name="MAIN_CLASS_NAME" value="com.www.test.OrderItemDaoImplTest" />
+      <option name="METHOD_NAME" value="saveOrderItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.www.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.www.test" />
+      <option name="MAIN_CLASS_NAME" value="com.www.test.OrderServiceTest" />
+      <option name="METHOD_NAME" value="createOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/Book/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="Book:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Book" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="127c5757-5f1f-4aee-9b76-322670b58b26" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Book:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CartTest.clear" />
+      <item itemvalue="JUnit.CartTest.updateCount" />
+      <item itemvalue="JUnit.OrderDaoImplTest.saveOrder" />
+      <item itemvalue="JUnit.OrderItemDaoImplTest.saveOrderItem" />
+      <item itemvalue="JUnit.OrderServiceTest.createOrder" />
+      <item itemvalue="Tomcat 服务器.Tomcat 8.5.47" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderServiceTest.createOrder" />
+        <item itemvalue="JUnit.OrderItemDaoImplTest.saveOrderItem" />
+        <item itemvalue="JUnit.OrderDaoImplTest.saveOrder" />
+        <item itemvalue="JUnit.CartTest.updateCount" />
+        <item itemvalue="JUnit.CartTest.clear" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="66b65ca4-73db-4b7c-9d0f-bd61c6ee7337" name="更改" comment="" />
+      <created>1634466583406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634466583406</updated>
+      <workItem from="1634466740375" duration="526000" />
+      <workItem from="1634531618888" duration="218000" />
+      <workItem from="1634531857184" duration="2227000" />
+      <workItem from="1634535607079" duration="651000" />
+      <workItem from="1634555506679" duration="795000" />
+      <workItem from="1634557782817" duration="1204000" />
+      <workItem from="1634560891302" duration="2989000" />
+      <workItem from="1634826174112" duration="926000" />
+      <workItem from="1634827140465" duration="3261000" />
+      <workItem from="1634860302668" duration="19411000" />
+      <workItem from="1634881548344" duration="7631000" />
+      <workItem from="1634889448152" duration="5095000" />
+      <workItem from="1634903764450" duration="12436000" />
+      <workItem from="1634973733417" duration="1940000" />
+      <workItem from="1634975710892" duration="4516000" />
+      <workItem from="1634980278935" duration="1073000" />
+      <workItem from="1634981378914" duration="124000" />
+      <workItem from="1634981522950" duration="12329000" />
+      <workItem from="1635041554731" duration="15166000" />
+      <workItem from="1635068652182" duration="2595000" />
+      <workItem from="1635074166624" duration="5866000" />
+      <workItem from="1635087617455" duration="2006000" />
+      <workItem from="1635123433420" duration="6403000" />
+      <workItem from="1635130055856" duration="2422000" />
+      <workItem from="1635133308839" duration="440000" />
+      <workItem from="1635133809879" duration="1181000" />
+      <workItem from="1635137759829" duration="250000" />
+      <workItem from="1635146209293" duration="5000" />
+      <workItem from="1635148433396" duration="534000" />
+      <workItem from="1635166363683" duration="1200000" />
+      <workItem from="1635234828984" duration="8000" />
+      <workItem from="1635240710445" duration="865000" />
+      <workItem from="1635245605062" duration="4182000" />
+      <workItem from="1635254277640" duration="8481000" />
+      <workItem from="1635298425683" duration="2141000" />
+      <workItem from="1635309685840" duration="1792000" />
+      <workItem from="1635315749261" duration="49000" />
+      <workItem from="1635319155976" duration="4513000" />
+      <workItem from="1635345925162" duration="668000" />
+      <workItem from="1635388050267" duration="4014000" />
+      <workItem from="1635396223995" duration="1116000" />
+      <workItem from="1635397457547" duration="146000" />
+      <workItem from="1635408287260" duration="1204000" />
+      <workItem from="1635419431633" duration="3357000" />
+      <workItem from="1635422827372" duration="4908000" />
+      <workItem from="1635430546115" duration="25000" />
+      <workItem from="1635481141102" duration="720000" />
+      <workItem from="1635512914198" duration="991000" />
+      <workItem from="1635514031088" duration="594000" />
+      <workItem from="1635748178479" duration="656000" />
+      <workItem from="1635748908464" duration="25000" />
+      <workItem from="1635752259429" duration="15000" />
+      <workItem from="1635753231642" duration="31000" />
+      <workItem from="1635753366358" duration="66000" />
+      <workItem from="1635753659807" duration="1267000" />
+      <workItem from="1635755922152" duration="2696000" />
+      <workItem from="1635766229551" duration="548000" />
+      <workItem from="1635766800250" duration="3047000" />
+      <workItem from="1635769925157" duration="809000" />
+      <workItem from="1635770752792" duration="4837000" />
+      <workItem from="1635813501127" duration="3351000" />
+      <workItem from="1635836809636" duration="1890000" />
+      <workItem from="1635841932357" duration="3914000" />
+      <workItem from="1635851079111" duration="3687000" />
+      <workItem from="1635859411968" duration="4666000" />
+      <workItem from="1635864952235" duration="1424000" />
+      <workItem from="1635902181709" duration="2769000" />
+      <workItem from="1635914651098" duration="1272000" />
+      <workItem from="1635918742772" duration="58000" />
+      <workItem from="1635927709769" duration="1362000" />
+      <workItem from="1635944793618" duration="3808000" />
+      <workItem from="1635949022639" duration="600000" />
+      <workItem from="1635949972059" duration="507000" />
+      <workItem from="1635951167945" duration="831000" />
+      <workItem from="1635992412231" duration="635000" />
+      <workItem from="1635993570788" duration="902000" />
+      <workItem from="1636007631965" duration="1058000" />
+      <workItem from="1636015488143" duration="5351000" />
+      <workItem from="1636029498371" duration="1914000" />
+      <workItem from="1636079469588" duration="1764000" />
+      <workItem from="1636091512536" duration="38000" />
+      <workItem from="1636376120552" duration="602000" />
+      <workItem from="1636639036673" duration="3000" />
+      <workItem from="1636805923411" duration="262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

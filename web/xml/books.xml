@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+    <?xml version='1.0' encoding='UTF-8'?>
+        以上内容就是xml 文件的声明
+        version="1.0"     version 表示xml 的版本
+        encoding="utf-8"        encoding  表示 xml 文件本的编码
+
+-->
+<books><!-- books   表示多个图书信息-->
+    <book sn="SN123456789321"><!-- book 表示 一个图书信息  sn 属性表示图书序列号 -->
+        <name>时间简史</name><!-- name  标签表示书名 -->
+        <author>霍金</author><!-- author 表示作者 -->
+        <price>75</price><!--price 表示图书价格-->
+    </book>
+    <book sn="SN123456789322"><!-- book 表示 一个图书信息  sn 属性表示图书序列号 -->
+        <name>Java从入门到精通</name><!-- name  标签表示书名 -->
+        <author>
+            [<![CDATA[com.www]]><!-- 文本区域 不会被 xml 解析-->
+        </author><!-- author 表示作者 -->
+        <price>35</price><!--price 表示图书价格-->
+    </book>
+    <!-- 单标签 -->
+    <book sn="SN123456789323" name="辟邪剑谱" author="林平之" price="10"/>
+</books>
